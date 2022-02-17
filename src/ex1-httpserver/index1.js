@@ -2,6 +2,9 @@ const http = require('http');
 
 const requestListener = function (req, res) {
     res.writeHead(200);
+
+    // When Node.js receives the final part of the HTTP response message,
+    // it calls the response.on('end') event handler.
     res.end('Hello, World!');
 }
 
