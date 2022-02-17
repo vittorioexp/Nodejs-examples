@@ -15,6 +15,10 @@ app.set('views', 'myview');
 
 app.engine('jsx',jsxEngine);
 
+app.get("/admin", (req,res)=>{
+    res.render("index", {name: "Jumanjiii"});
+});
+
 app.get("/:name",(req,res)=>{
     res.render('index', { name: req.params.name });
 });
@@ -27,6 +31,7 @@ app.get("/fetch/:num", (req, res)=>{
         res.render('index', {name: months[num-1]});
     }
 });
+
 
 app.listen(3333, () => {
     console.log(`Listening at http://localhost:3333`)
