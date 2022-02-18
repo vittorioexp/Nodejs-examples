@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/ex1-httpserver" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex2-httpserver_with_import_module" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex3-async_await" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex4-readfile_sync" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex5-readfile_async" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex6-set_timeout" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex7-async_promises" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex8-async_axios_request" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex9-json_parse" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex10-express_get_temperature" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex11-express_middleware" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex12-express_error_handling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex13-express_routing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex14-express_server" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex15-express_static_files" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex16-express_template_react" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ex17-react_app" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
