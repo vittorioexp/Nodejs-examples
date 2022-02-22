@@ -27,11 +27,29 @@ function readFile2(filename2) {
     });
 }
 
+function writeFile() {
+    let dir = '.';
+
+    fs.writeFile(dir + "/new_file.txt",
+        "File created using fs.writeFile in Node.js",
+        (err,data)=>{
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("Completed writing file");
+            }
+    });
+}
+
 console.log('Before the reading the file-1');
 readFile1(filename1);
 
 console.log('Before the reading the file-2');
 readFile2(filename2);
+
+console.log('Before writing the file');
+writeFile();
+
 
 
 console.log('All done!');
