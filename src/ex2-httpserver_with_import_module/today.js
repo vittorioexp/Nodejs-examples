@@ -1,4 +1,6 @@
-module.exports.getDate = function getDate() {
-    let aestTime = new Date().toLocaleString("it-IT");
-    return new Date(aestTime);
+
+const getDate = () => {
+    return new Date();
 }
+
+module.exports = getDate;
