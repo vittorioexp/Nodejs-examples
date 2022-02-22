@@ -8,4 +8,9 @@ const peter = "peter";
 const hellen = "hellen";
 const bruce = "bruce";
 
-module.exports = {john, peter};
+// another share
+const alph = ["A","B","C"];
+
+module.exports = {john, peter, hellen, bruce};
+
+module.exports.alphabet = alph;

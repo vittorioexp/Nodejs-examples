@@ -1,6 +1,8 @@
 const http = require('http');
 const today = require('./today');
 const names = require("./names");
+require("./auto");
+const {alphabet} = require("./names");
 
 const requestListener = function (req, res) {
 
@@ -20,10 +22,10 @@ const requestListener = function (req, res) {
         greeting = "Good night " + names.bruce;
     }
 
-    res.end(`Hello, ${greeting}`);
+    res.end(`Hello, ${greeting} ` + alphabet[0] + alphabet[1] + alphabet[2]);
 }
 
 const port = 8080;
 const server = http.createServer(requestListener);
-console.log('server listening on http://localhost:' + port);
+console.log('Server listening on http://localhost:' + port);
 server.listen(port);
