@@ -18,10 +18,27 @@ function readFile2(filename2) {
     console.log("Completed reading file2");
 }
 
-console.log('Before the reading the file-1');
+function writeFile() {
+    let dir = './result/writefile';
+
+    // Create folders if they don't exist
+    if (!fs.existsSync(dir)){
+        fs.mkdirSync(dir, { recursive: true });
+    }
+
+    fs.writeFileSync(dir + "/new_file.txt","File created using fs.writeFileSync in Node.js");
+    console.log("Completed writing file");
+}
+
+console.log('Before reading the file-1');
 readFile1(filename1);
 
-console.log('Before the reading the file-2');
+console.log('Before reading the file-2');
 readFile2(filename2);
+
+console.log('Before writing the file');
+writeFile();
+
+
 
 console.log('All done!');
