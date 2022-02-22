@@ -1,3 +1,5 @@
+
+const my_os = require("./my_os");
 const express = require('express');
 const app = new express();
 
@@ -10,7 +12,7 @@ userRouter.use(function (req, res, next) {
 })
 
 userRouter.get('/:id', function (req, res, next) {
-    res.send("User "+req.params.id+" last successful login "+Date())
+    res.send("User "+req.params.id+" last successful login "+Date() + " " + JSON.stringify(my_os, null, 2))
 })
 
 itemRouter.use(function (req, res, next) {
