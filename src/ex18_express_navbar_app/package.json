@@ -1,0 +1,15 @@
+{
+  "name": "ex18_express_navbar_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index18.js",
+  "scripts": {
+    "start": "node index18.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
